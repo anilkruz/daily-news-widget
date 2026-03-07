@@ -9,7 +9,8 @@ import os
 NEWS_API_KEY = os.getenv('NEWS_API_KEY')
 SENDER = os.getenv('EMAIL_SENDER')
 PASSWORD = os.getenv('EMAIL_PASSWORD')
-RECEIVER = os.getenv('EMAIL_SENDER')  # Ya change if different receiver
+RECEIVER = os.getenv('EMAIL_RECEIVER')  # Ya change if different receiver
+
 
 def get_ist_time():
     utc_now = datetime.now(timezone.utc)
